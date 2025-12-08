@@ -27,7 +27,7 @@ Vector_MinSep_Font=EuroScope
 Vector_QDM_Font=EuroScope
 
 System_UseAUP=1
-HTTP_AUP_URL=https://unnt-acc-vatsim.github.io/Areas/output.json
+HTTP_AUP_URL=https://vatsib.github.io/Areas/output.json
 
 Setup_COOPANS=1
 
@@ -294,4 +294,5 @@ Window_MsgOut=1,5,130
 Window_ATCmsg=1,1650,200
 Window_MsgIn=1,5,50
 Window_MsgOut=1,5,130
+
 
