@@ -281,7 +281,7 @@ Shortcut_Map_Xfr_Key=4,0x4E ; N
 Shortcut_Map_Xfr_Key=5,0x54 ; T
 
 Shortcut_Map_Target=1,UNNT\UNNT_VFR
-Shortcut_Map_Target=2,SMAA\UNBG
+Shortcut_Map_Target=2,SMAA\SMAA
 Shortcut_Map_Target=3,Aerodromes\NAMES
 Shortcut_Map_Target=4,VFR\NP
 Shortcut_Map_Target=5,UNNT\TROMBONE_25
@@ -295,5 +295,6 @@ Window_MsgOut=1,5,130
 Window_ATCmsg=1,1650,200
 Window_MsgIn=1,5,50
 Window_MsgOut=1,5,130
+
 
 
