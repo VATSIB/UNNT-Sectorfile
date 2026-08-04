@@ -44,7 +44,7 @@ SET_TransparentAcListBackground:0
 m_PutIncomingCoordinationToFirst:1
 m_AutoProxyMode:0
 m_TransparentAcListSelectedBackground:0
-m_TransparentDetailedTagBackground:1
+m_TransparentDetailedTagBackground:0
 m_TransparentDetailedTagSelectedItemBackground:0
 m_AllowDirectBeyondCOPX:0
 m_ShowAtisLetterInMETAR:1
@@ -53,7 +53,7 @@ m_ShowRAMWarning:0
 m_MagneticNorthUp:1
 m_ShowAForAltitudes:1
 m_Show500ForNonVisual:1
-SET_SetActiveAptBySectors:0
+SET_SetActiveAptBySectors:1
 SET_CapitalizeFPAndScratch:0
 m_SET_WTC_Light:L
 SET_WTC_Medium:M
