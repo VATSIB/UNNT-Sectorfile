@@ -978,15 +978,15 @@ TAGTYPE:2:4:1
 TAGITEM:90::0:1:41:0::0:1:::1
 TAGITEM:207::0:1:5:0:TopSky plugin:0:1:TopSky plugin::1
 TAGITEM:0::0:0:0:0::0:1:::1
-TAGITEM:20::0:0:0:0:Novosibirsk Plugin:0:1:::1
+TAGITEM:20::0:0:7:7:Novosibirsk Plugin:0:1:Novosibirsk Plugin:Novosibirsk Plugin:1
 TAGITEM:101::1:0:8:6:Novosibirsk Plugin:0:1:Novosibirsk Plugin:TopSky plugin:4
 TAGITEM:46::0:0:0:0:Novosibirsk Plugin:0:1:::1
 TAGITEM:65::0:1:25:0::0:1:::1
 TAGITEM:3::0:1:8:6:Novosibirsk Plugin:0:1:::8
 TAGITEM:107::0:0:0:0:TopSky plugin:0:1:::1
-TAGITEM:47::0:0:32:0:Novosibirsk Plugin:0:1:::4
+TAGITEM:47::0:0:32:7:Novosibirsk Plugin:0:1::Novosibirsk Plugin:4
 TAGITEM:37::0:0:62:62:Novosibirsk Plugin:25:1:TopSky plugin:TopSky plugin:1
-TAGITEM:21::0:1:7:0:Novosibirsk Plugin:25:1:Novosibirsk Plugin::1
+TAGITEM:21::0:1:0:0:Novosibirsk Plugin:25:1:::1
 TAGITEM:0::0:0:0:0::0:1:::1
 TAGITEM:5::0:1:99:0:Novosibirsk Plugin:0:1:TopSky plugin::4
 TAGITEM:6::0:0:0:0:Novosibirsk Plugin:0:1:::4
@@ -1018,8 +1018,8 @@ TAGITEM:31::0:0:0:0:Novosibirsk Plugin:25:1:::1
 TAGITEM:33::0:0:0:0::0:1:::1
 TAGITEM:42::0:0:29:29:Novosibirsk Plugin:0:1:::4
 TAGITEM:43::0:0:29:29:Novosibirsk Plugin:0:1:::1
-TAGITEM:44::0:0:29:29:Novosibirsk Plugin:25:1:::1
-TAGITEM:45::0:1:29:29:Novosibirsk Plugin:5:1:::1
+TAGITEM:44::0:0:0:0:Novosibirsk Plugin:25:1:::1
+TAGITEM:45::0:1:0:0:Novosibirsk Plugin:25:1:::1
 TAGITEM:0::0:0:0:0::0:1:::1
 TAGITEM:38::0:0:0:0:Novosibirsk Plugin:0:1:::1
 TAGITEM:32::0:0:0:0:Novosibirsk Plugin:25:1:::1
