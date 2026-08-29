@@ -1,0 +1,88 @@
+{
+    "discord_appid": "1122092097667866694",
+    "discord_presence_large_image_key" : "es",
+    "discord_presence_small_image_key" : "ttrks",
+    "sweatbox_bypass" : false,
+    "states" : {
+        "idle": {
+            "presence_small_image_key": "",
+            "presence_large_image_key" : "",
+            "state" : "",
+            "details" : "Idle",
+            "presence_small_image_text" : "",
+            "presence_large_image_text" : ""
+        },
+        "playback": {
+            "presence_small_image_key": "",
+            "presence_large_image_key" : "",
+            "state" : "",
+            "details" : "Playback",
+            "presence_small_image_text" : "",
+            "presence_large_image_text" : ""
+        },
+        "sweatbox": {
+            "presence_small_image_key": "",
+            "presence_large_image_key" : "",
+            "state" : "sweating someone",
+            "details" : "Sweatbox",
+            "presence_small_image_text" : "",
+            "presence_large_image_text" : ""
+        },
+        "direct": { 
+            "presence_small_image_key": "",
+            "presence_large_image_key" : "",
+            "state" : "",
+            "details" : "",
+            "presence_small_image_text" : "",
+            "presence_large_image_text" : "",
+            
+            "if_observer" : {
+                "presence_small_image_key": "",
+                "presence_large_image_key" : "",
+                "state" : "Aircraft in range: {total_inrange}",
+                "details" : "Observing as {callsign}",
+                "presence_small_image_text" : "",
+                "presence_large_image_text" : ""
+            },
+            
+            "if_controller": {
+                "presence_small_image_key": "",
+                "presence_large_image_key" : "",
+                "state" : "Controlling ({current_tracked} of {total_inrange})",
+                "details" : "{rcallsign} {frequency}MHz",
+                "presence_small_image_text" : "Total tracks: {total_tracked}",
+                "presence_large_image_text" : "{callsign}",
+                "buttons": [
+                    {
+                        "label": "Callsign stats",
+                        "url" : "https://stats.vatsim.net/search/{callsign}"
+                    },
+                    {
+                        "label": "Feedback",
+                        "url" : "https://siberia.vatrus.info/feedback"
+                    }
+                ]
+            },
+            
+            "if_supervisor": {
+                "presence_small_image_key": "",
+                "presence_large_image_key" : "",
+                "state" : "",
+                "details" : "",
+                "presence_small_image_text" : "",
+                "presence_large_image_text" : ""
+            }
+        }
+    },
+    "buttons": [
+
+    ],
+    "radio_callsigns": {
+        "config": {
+            "load_from_ese": true,
+            "path_to_ese" : "..\\..\\..\\"
+        },
+        "custom_callsigns": {
+        }
+    }
+}
