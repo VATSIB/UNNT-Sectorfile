@@ -8,7 +8,7 @@
             "presence_small_image_key": "",
             "presence_large_image_key" : "",
             "state" : "",
-            "details" : "Idle",
+            "details" : "Doing absolutely nothing",
             "presence_small_image_text" : "",
             "presence_large_image_text" : ""
         },
@@ -16,14 +16,14 @@
             "presence_small_image_key": "",
             "presence_large_image_key" : "",
             "state" : "",
-            "details" : "Playback",
+            "details" : "Reviewing the past",
             "presence_small_image_text" : "",
             "presence_large_image_text" : ""
         },
         "sweatbox": {
             "presence_small_image_key": "",
             "presence_large_image_key" : "",
-            "state" : "sweating someone",
+            "state" : "Making someone's life sweeter",
             "details" : "Sweatbox",
             "presence_small_image_text" : "",
             "presence_large_image_text" : ""
@@ -39,8 +39,8 @@
             "if_observer" : {
                 "presence_small_image_key": "",
                 "presence_large_image_key" : "",
-                "state" : "Aircraft in range: {total_inrange}",
-                "details" : "Observing as {callsign}",
+                "state" : "Already counted {total_inrange} aircraft",
+                "details" : "Processing the situation as {callsign}",
                 "presence_small_image_text" : "",
                 "presence_large_image_text" : ""
             },
@@ -48,15 +48,11 @@
             "if_controller": {
                 "presence_small_image_key": "",
                 "presence_large_image_key" : "",
-                "state" : "Controlling ({current_tracked} of {total_inrange})",
-                "details" : "{rcallsign} {frequency}MHz",
+                "state" : "Controlling {current_tracked} of {total_inrange} aircraft in range", 
+                "details" : "{rcallsign} on {frequency}MHz",
                 "presence_small_image_text" : "Total tracks: {total_tracked}",
                 "presence_large_image_text" : "{callsign}",
                 "buttons": [
-                    {
-                        "label": "Callsign stats",
-                        "url" : "https://stats.vatsim.net/search/{callsign}"
-                    },
                     {
                         "label": "Feedback",
                         "url" : "https://siberia.vatrus.info/feedback"
