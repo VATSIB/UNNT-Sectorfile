@@ -212,6 +212,7 @@ SAP_Buffer_Vert_U=1500
 SAP_Buffer_Vert_L_IFR=500
 SAP_Buffer_Vert_L_VFR=500
 
+STCA=0
 STCA_Sep_Lat_SepLevel=24500
 STCA_Sep_Lat_SepLevel=24500
 STCA_Filter=1
