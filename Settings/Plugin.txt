@@ -148,4 +148,7 @@ VSS Plugin:ACList/EOBT List/m_Column_1:AOBT:4:1:4:1:2:1:VSS Plugin:VSS Plugin:VS
 VSS Plugin:ACList/EOBT List/m_Column_2:CS:7:1:9:0:0:1:::
 VSS Plugin:ACList/EOBT List/m_Column_3:DEST:5:1:17:0:0:1:::
 IASsure:IASsure:1|5||1|2|I|M|24500|1|DIAS|DMACH
+CDM Plugin:CDMWindowPositionX:1629
+CDM Plugin:CDMWindowPositionY:48
+CDM Plugin:CDMMinimized:1
 END
