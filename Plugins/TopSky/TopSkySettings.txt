@@ -37,7 +37,6 @@ Airspace_ASSR_Type=0
 Airspace_ModeS_Code_VFR=7000
 Airspace_No_DUPE_Codes=7700,7600,7500
 Airspace_SIGMET_Areas=UNNT
-Airspace_NOTAM_Add=UNNT
 
 Window_ASM=1,250,100,675,400
 Window_ASM_Chars_Name=9
@@ -52,17 +51,18 @@ AIW=0
 AIW_Type=1
 AIW_Floor=3000
 
-APW=1
+APW=0
 APW_VFR=0
 APW_AlertSound=0
 APW_AlertSound_Filter
 APW_UseCFL=1
 
-Areas_NOTAM_Activation=1
+Areas_NOTAM_Activation=0
 Areas_AUP_Activation=1
+Maps_NOTAM_Activation=0
 
 Window_QNHTL=1
-Window_NOTAM=1
+Window_NOTAM=0
 Window_QNHTL=3,0,890
 Window_NOTAM=3,0,1100
 
@@ -153,9 +153,8 @@ RDF_MinRadius=25
 
 CPDLC_Default=0
 
-Divergence_CLAM=1
-Divergence_RAM=1
-Divergence_RAM_ADES_Radius=30
+Divergence_CLAM=0
+Divergence_RAM=0
 
 Equip_UseCodes=0
 
@@ -167,7 +166,7 @@ FlightLeg_Label_SCFL=1
 FlightLeg_LineWidth=0
 FlightLeg_Use_Ack_Color=0
 
-FPCP_4D=1
+FPCP_4D=0
 
 FPCP_HeadingTime=5
 FPCP_PredictionTime=10
@@ -184,9 +183,9 @@ Label_WTC_Highlight_ATYP=B752,B753
 Menu_MaxListItems=15
 
 MSAW=0
-MSAW_UseCFL=1
+MSAW_UseCFL=0
 
-MTCD=1
+MTCD=0
 MTCD_AHDG=1
 MTCD_RAM=1
 MTCD_DeAcknowledge=5
@@ -203,6 +202,7 @@ RwyAppLines_Auto=0
 
 Shortcut_RadarMenu_Combo=0x00
 
+SAP=0
 SAP_Floor=3500
 SAP_Buffer_Lat_SepLevel=29000
 SAP_Buffer_Lat_U=2.5
@@ -288,8 +288,11 @@ Shortcut_Map_Target=3,Aerodromes\NAMES
 Shortcut_Map_Target=4,VFR\NP
 Shortcut_Map_Target=5,UNNT\TROMBONE_25
 Shortcut_Map_Target=6,FIR\UNNT_FRA
+
+FAST=0
+List_FAST_Header=0
+
 [_CTR]
-Window_CARD=3,1560,805
 Window_ATCmsg=1,1650,200
 Window_MsgIn=1,5,50
 Window_MsgOut=1,5,130
