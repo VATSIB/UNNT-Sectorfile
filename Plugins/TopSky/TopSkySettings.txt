@@ -37,7 +37,6 @@ Airspace_ASSR_Type=0
 Airspace_ModeS_Code_VFR=7000
 Airspace_No_DUPE_Codes=7700,7600,7500
 Airspace_SIGMET_Areas=UNNT
-Airspace_NOTAM_Add=UNNT
 
 Window_ASM=1,250,100,675,400
 Window_ASM_Chars_Name=9
@@ -154,7 +153,7 @@ RDF_MinRadius=25
 
 CPDLC_Default=0
 
-Divergence_CLAM=
+Divergence_CLAM=0
 Divergence_RAM=0
 
 Equip_UseCodes=0
